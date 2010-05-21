@@ -1,0 +1,24 @@
+<h2>>><%= link_to "get data on bar_list.html","get_data" %></h2>
+<hr/>
+<table>
+  <tr>
+    <th>Lawyer name</th>
+    <th>Status</th>
+    <th>Bar number</th>
+    <th>City</th>
+    <th>Admission date</th>
+  </tr>
+
+<% @lawyers.each do |lawyer| %>
+  <tr>
+    <td><%=h lawyer.lawyer_name %></td>
+    <td><%=h lawyer.status %></td>
+    <td><%=h lawyer.bar_number %></td>
+    <td><%=h lawyer.city %></td>
+    <td><%=h lawyer.admission_date %></td>
+  </tr>
+<% end %>
+</table>
+
+<hr />
+<%= link_to 'Destroy all',"/lawyer/destroy_all", :confirm=>'Are you sure?', :method=> :delete%>

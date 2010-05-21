@@ -1,0 +1,28 @@
+<p>
+  <b>Lawyer name:</b>
+  <%=h @lawyer.lawyer_name %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%=h @lawyer.status %>
+</p>
+
+<p>
+  <b>Bar number:</b>
+  <%=h @lawyer.bar_number %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%=h @lawyer.city %>
+</p>
+
+<p>
+  <b>Admission date:</b>
+  <%=h @lawyer.admission_date %>
+</p>
+
+
+<%= link_to 'Edit', edit_lawyer_path(@lawyer) %> |
+<%= link_to 'Back', lawyers_path %>

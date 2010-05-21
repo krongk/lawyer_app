@@ -1,0 +1,4 @@
+#Éú³Élawyer±í
+>ruby script/generate scaffold lawyer
+lawyer_name:string status:integer bar_number:string city:string admission_date:d
+ate

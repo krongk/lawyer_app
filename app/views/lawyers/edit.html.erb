@@ -1,0 +1,32 @@
+<h1>Editing lawyer</h1>
+
+<% form_for(@lawyer) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :lawyer_name %><br />
+    <%= f.text_field :lawyer_name %>
+  </p>
+  <p>
+    <%= f.label :status %><br />
+    <%= f.text_field :status %>
+  </p>
+  <p>
+    <%= f.label :bar_number %><br />
+    <%= f.text_field :bar_number %>
+  </p>
+  <p>
+    <%= f.label :city %><br />
+    <%= f.text_field :city %>
+  </p>
+  <p>
+    <%= f.label :admission_date %><br />
+    <%= f.date_select :admission_date %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @lawyer %> |
+<%= link_to 'Back', lawyers_path %>

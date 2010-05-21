@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  lawyer_name: MyString
+  status: 1
+  bar_number: MyString
+  city: MyString
+  admission_date: 2010-05-20
+
+two:
+  lawyer_name: MyString
+  status: 1
+  bar_number: MyString
+  city: MyString
+  admission_date: 2010-05-20
