@@ -1,0 +1,69 @@
+
+<!-- saved from url=(0029)http://zhangxh.net/hr/quiz/1/ -->
+<HTML><HEAD><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  </HEAD><BODY>
+    <PRE>    
+    Note: This quiz is long and difficult and most applicants are not expected to complete it.
+    Finish as much as you want or however much you are capable of doing.
+    
+    - Question:
+    
+      In <A href="http://zhangxh.net/hr/quiz/1/bar_list.html" target="_blank">bar_list.html</A>, there's a table consisting of 5 columns:
+        Lawyer Name, Status, Bar Number, City and Admission Date. 
+      
+      1. Design a database table, store the SQL statements in file "lawyer.sql"
+    
+      2. Write a program in whatever language you are good at (Ruby/Php/Perl/VB/Java/C#/C++ etc) to 
+    
+         (a) get all the lawyers information; (hint: use Regular Expression)
+    
+         Note: we are most interested in how you will extract the fields (lawyer name, status, bar number, etc) from the HTML.
+         You can save the page and your code can run on a saved file or STDIN if you like, so you don't have to write networking (HTTP) code.
+    
+         (b) store in DB.
+    
+    For bonus points:
+    
+      1. Bar Numbers should be stored as type Integer.
+    
+      2. Admission Date needs to be stored as type Date, but on the page (bar_list.html) it is stored
+         as a string (eg. November 1993).  You need to do the conversion.
+    
+      3. Convert the lawyer names so they are stored in the format: "Firstname Middlename Lastname Suffix".
+         e.g. "Aaron Jr, John Bland" =&gt; "John Bland Aaron Jr"  
+    
+      4. if there are single quotes in Last Names, remove them.
+         e.g. "Aa'ronson, Joel Steven" =&gt; "Aaronson, Joel Steven"
+         
+    本试题有一定难度，并不要求全部完成。尽可能多的完成即可。
+    
+    - 题目
+    
+      在<A href="http://zhangxh.net/hr/quiz/1/bar_list.html" target="_blank">bar_list.html</A>中，表格包含5列：Lawyer Name, Status, Bar Number, City和Admission Date。
+      
+      1. 设计一个数据库表格存储所有列，把创建表格所用的SQL语句存在文件"lawyer.sql"里；
+      
+      2. 用你所擅长的编程语言（例如java/c++/c#/VB/php/perl/ruby）
+      （a）得到所有律师信息（提示：用正则表达式提取）并且（b）存入数据库。
+      
+      请注意：程序可以直接读取名为bar_list.html的本地文件获得HTML代码，无需从网上获取。
+    
+    - 奖分
+    
+      1. Bar Number定义为整数型；
+      
+      2. Admission Date定义为日期型；注意：网上数据为字串型（如November 1993），需要转换；
+      
+      3. 转换Lawyer Name的格式为"Firstname Middlename Lastname Suffix"；例如"Aaron Jr, John Bland" =&gt; "John Bland Aaron Jr"
+      
+      4. 去除Lastname中的单引号；例如"Aa'ronson, Joel Steven" =&gt; "Aaronson, Joel Steven"
+    
+    - 发送
+    
+      完成后请将文件"lawyer.sql"和程序发至recruit.cd@gmail.com
+      
+    </PRE>
+  
+
+</BODY></HTML>
